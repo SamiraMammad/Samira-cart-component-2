@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.container{
+    width: 330px;
+    height: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    box-shadow: 1px 15px 35px 15px hsl(218, 83%, 9%); 
+    word-spacing: 1px;
+    margin-top: 100px;
+}
+.photo{
+  position: relative;
+ 
+}
+.hero-img{
+
+    width: 100%;
+    height: auto;
+margin-top: 20px;
+    border-radius: 8px;
+}
+.ikon{
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(74, 254, 242,0.5);
+  visibility: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+ 
+  
+}
+.avatar-img{
+  width: 12%; 
+  height: auto; 
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-left: 10px;
+}
+.line{
+    width: 100%; 
+  height: 1px; 
+  border-bottom: 1px solid #6e7781;
+}
+.end{
+  margin-left: 4px;
+  color:hsl(215, 68%, 85%);
+  font-weight: lighter;
+  font-size: 16px;
+}
+.end a{
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
+  transition: color 0.3s ease;
+  
+}
+.end a:hover {
+  color: rgb(74, 254, 242);
+}
+.in{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h3{
+  color: white;
+  transition: color 0.3s ease;
+  
+}
+h3:hover {
+  color: rgb(74, 254, 242);
+}
+p{
+  color:hsl(215, 68%, 85%);
+}
+.icons{
+  color: rgb(74, 254, 242);
+   gap: 20px;
+   
+}
+.icons2{
+  color:hsl(215, 68%, 85%) ;
+}
+.endofcard{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.centre{
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo:hover .ikon {
+  visibility: visible;
+  opacity:1
+}
+.in a{
+  text-decoration: none;
+  color: white;
+}
+.in a:hover {
+ color:rgb(74, 254, 242);
+}
